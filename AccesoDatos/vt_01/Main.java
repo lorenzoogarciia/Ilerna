@@ -11,6 +11,7 @@ public class Main {
 		File dirAbsoluto = new File("C:\\DirectorioAbsoluto");
 		File ficheroAbsoluto = new File("C:\\DirectorioAbsoluto\\ficheroAbsoluto.txt");
 		
+		//Cuando trabajamos con ficheros o directorios hay que hacerlo mediante un bloque try-catch siempre
 		try {
 			dirAbsoluto.mkdir();
 			if(ficheroAbsoluto.createNewFile()) {
