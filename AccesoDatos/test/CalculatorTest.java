@@ -1,4 +1,4 @@
-package test;
+package AccesoDatos.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
