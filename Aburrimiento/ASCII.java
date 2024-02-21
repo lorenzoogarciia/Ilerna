@@ -1,3 +1,4 @@
+package Aburrimiento;
 import javax.swing.*;
 public class ASCII {
 

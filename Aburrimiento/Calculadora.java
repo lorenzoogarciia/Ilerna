@@ -1,8 +1,9 @@
+package Aburrimiento;
 import java.util.Scanner;
 public class Calculadora {
 	
 	public static void crearMenu() {
-		System.out.println("\nIntroduce una acción");
+		System.out.println("\nIntroduce una acciï¿½n");
 		System.out.println("1 Sumar");
 		System.out.println("2 Restar");
 		System.out.println("3 Multiplicar");
@@ -13,13 +14,13 @@ public class Calculadora {
 	
 	public static double pedirNum1(double num1) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Introduce el primer número: ");
+		System.out.print("Introduce el primer nï¿½mero: ");
 		num1 = sc.nextDouble();
 		return num1;
 	}
 	public static double pedirNum2(double num2) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("\nIntroduce el segundo número: ");
+		System.out.print("\nIntroduce el segundo nï¿½mero: ");
 		num2=sc.nextDouble();
 		return num2;
 	}
@@ -83,7 +84,7 @@ public class Calculadora {
 					System.out.println("Muchas gracias por utilizar el programa.");
 					break;
 				default:
-					System.out.println("ERROR: Opción inválida. Vuelva a intentarlo");
+					System.out.println("ERROR: Opciï¿½n invï¿½lida. Vuelva a intentarlo");
 				}
 			}while(option!=0);
 	}
