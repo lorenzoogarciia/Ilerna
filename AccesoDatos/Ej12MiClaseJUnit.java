@@ -1,4 +1,4 @@
-package uf1;
+package AccesoDatos;
 
 public class Ej12MiClaseJUnit {
 	
