@@ -1,0 +1,15 @@
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB.csproj.AssemblyReference.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\MainWindow.g.cs
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\App.g.cs
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB_MarkupCompile.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB_MarkupCompile.lref
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\bin\Debug\ColorRGB.exe.config
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\bin\Debug\ColorRGB.exe
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\bin\Debug\ColorRGB.pdb
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\MainWindow.baml
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB.g.resources
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB.Properties.Resources.resources
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB.csproj.GenerateResource.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB.csproj.CoreCompileInputs.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB.exe
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\ColorRGB\ColorRGB\obj\Debug\ColorRGB.pdb

@@ -1,0 +1,48 @@
+﻿<Window x:Class="ColorRGB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColorRGB"
+        mc:Ignorable="d"
+        Title="Color RGB" Height="300" Width="400">
+    <Grid>
+        <!--Definimos las filas de nuestro programa-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Selecciona un color RGB:" HorizontalAlignment="Center"
+               FontSize="24"  FontFamily="Arial Black" Grid.Row="0"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="90"/>
+            </Grid.ColumnDefinitions>
+            
+            <!--Labels y combo box de los colores-->
+            <Label Content="Rojo:" Grid.Row="0" Grid.Column="0" FontSize="20" FontFamily="Avenir"/>
+            <ComboBox x:Name="comboRojo" Grid.Row="0" Grid.Column="1" Margin="10,0" Width="Auto"
+                      MaxWidth="100" FontFamily="Avenir" FontSize="20"/>
+
+            <Label Content="Verde:" Grid.Row="1" Grid.Column="0" FontSize="20" FontFamily="Avenir"/>
+            <ComboBox x:Name="comboVerde" Grid.Row="1" Grid.Column="1" Margin="10,0" Width="Auto"
+          MaxWidth="100" FontFamily="Avenir" FontSize="20"/>
+
+            <Label Content="Azul:" Grid.Row="2" Grid.Column="0" FontSize="20" FontFamily="Avenir"/>
+            <ComboBox x:Name="comboAzul" Grid.Row="2" Grid.Column="1" Margin="10,0" Width="Auto"
+          MaxWidth="100" FontFamily="Avenir" FontSize="20"/>
+        </Grid>
+
+        <Button x:Name="btnPintar" Grid.Row="2" Content="Pintar botón" Width="300" Margin="0,10,0,10" FontSize="20"
+                FontFamily="Avenir" HorizontalAlignment="Center" Click="btnPintar_Click"/>
+    </Grid>
+</Window>

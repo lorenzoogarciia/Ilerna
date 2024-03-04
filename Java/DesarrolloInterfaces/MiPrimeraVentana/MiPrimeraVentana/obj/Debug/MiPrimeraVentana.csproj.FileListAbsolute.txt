@@ -1,0 +1,15 @@
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\bin\Debug\MiPrimeraVentana.exe.config
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\bin\Debug\MiPrimeraVentana.exe
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\bin\Debug\MiPrimeraVentana.pdb
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana.csproj.AssemblyReference.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MainWindow.g.cs
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\App.g.cs
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana_MarkupCompile.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana_MarkupCompile.lref
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MainWindow.baml
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana.g.resources
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana.Properties.Resources.resources
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana.csproj.GenerateResource.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana.csproj.CoreCompileInputs.cache
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana.exe
+C:\Users\loren\Desktop\Ilerna_DAM_22-23\Desarrollo de Interfaces\UF1\MiPrimeraVentana\MiPrimeraVentana\obj\Debug\MiPrimeraVentana.pdb
