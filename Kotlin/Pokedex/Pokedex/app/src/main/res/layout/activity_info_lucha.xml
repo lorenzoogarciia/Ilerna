@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_lucha"
+    tools:context=".InfoLuchaActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_logo_pokemon_info_lucha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="2"
+            android:scaleY="2"
+            app:srcCompat="@drawable/pokemon_logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout20"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout20">
+
+        <ImageView
+            android:id="@+id/img_pokemon_lucha1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pikachu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout19"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout18">
+
+        <ImageView
+            android:id="@+id/img_pokemon_lucha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pikachu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:alpha="0.50"
+        android:background="@color/fondo_pokedex"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout20">
+
+        <TextView
+            android:id="@+id/txt_info_lucha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:lineSpacingExtra="8sp"
+            android:text="Tipo: Eléctrico\nFuerza: 22\nVelocidad:15"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="75px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout21">
+
+        <ImageButton
+            android:id="@+id/btn_atras_lucha2"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:backgroundTint="@color/boton_pokemon"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

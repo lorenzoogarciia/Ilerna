@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_buscar"
+    tools:context=".BuscarActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="401dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/img_pokeball_buscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pokeball" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/img_pokemon_buscar"
+            android:layout_width="match_parent"
+            android:layout_height="423dp"
+            app:srcCompat="@drawable/buscando_pokemon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="421dp"
+        android:layout_height="197dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_atrapalo"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/boton_pokemon"
+            android:gravity="center|center_vertical"
+            android:text="¡Atrápalo!"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="60px" />
+
+        <Button
+            android:id="@+id/btn_verInformacion_buscar"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:backgroundTint="@color/boton_pokemon"
+            android:gravity="center|center_vertical"
+            android:text="Ver información"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="60px" />
+
+        <ImageButton
+            android:id="@+id/btn_atras_buscar"
+            android:layout_width="200px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:backgroundTint="@color/boton_pokemon"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

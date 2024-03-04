@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_pokedex"
+    tools:context=".InfoPokedexActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="71dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/img_pokedex_info_sup"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:scaleX="1.24"
+            app:srcCompat="@drawable/pokedex_base" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txt_nombre_pokemon_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pikachu"
+            android:textAlignment="center"
+            android:textColor="@color/boton_pokemon"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout19"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/img_pokedex_info_inf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1.2"
+            app:srcCompat="@drawable/pokedex_base_inf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txt_info_pokemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:alpha="0.85"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:lineSpacingExtra="8sp"
+            android:text="Tipo: Eléctrico\nFuerza: 22\nVelocidad:15"
+            android:textAlignment="center"
+            android:textColor="@color/boton_pokemon"
+            android:textSize="75px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout18"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/btn_atras_info"
+            android:layout_width="200px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginTop="25px"
+            android:backgroundTint="@color/boton_pokemon"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
