@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6C57E"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="53dp"
+        android:text="Multiplicación"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtOperandoA"
+        app:layout_constraintStart_toStartOf="@+id/txtOperandoA" />
+
+    <EditText
+        android:id="@+id/txtOperandoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="41dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Operando A"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/txtOperandoB"
+        app:layout_constraintStart_toStartOf="@+id/txtOperandoB" />
+
+    <EditText
+        android:id="@+id/txtOperandoB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="329dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Operando B"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/calculoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:text="Multiplicar"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtOperandoB"
+        app:layout_constraintTop_toBottomOf="@+id/txtOperandoB" />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Resultado"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/txtOperandoA"
+        app:layout_constraintStart_toStartOf="@+id/txtOperandoA"
+        app:layout_constraintTop_toBottomOf="@+id/calculoButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

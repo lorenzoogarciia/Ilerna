@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_buscar"
+    tools:context=".BuscarActivity">
+
+    <Button
+        android:id="@+id/btn_verInformacionBuscar"
+        android:layout_width="251dp"
+        android:layout_height="0dp"
+        android:text="Ver información"
+        android:textColor="@color/boton_pokemon"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_volverAtras_Buscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_atrapar"
+        tools:backgroundTint="@color/fondo_pokemon" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_pokeball" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_atrapar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/treecko" />
+
+    <Button
+        android:id="@+id/btn_atrapar"
+        android:layout_width="236dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:text="¡Atrápalo!"
+        android:textColor="@color/boton_pokemon"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_verInformacionBuscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        tools:backgroundTint="@color/fondo_pokemon" />
+
+    <Button
+        android:id="@+id/btn_volverAtras_Buscar"
+        android:layout_width="216dp"
+        android:layout_height="143dp"
+        android:layout_marginBottom="13dp"
+        android:text="Atras"
+        android:textColor="@color/boton_pokemon"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_verInformacionBuscar"
+        tools:backgroundTint="@color/fondo_pokemon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

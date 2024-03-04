@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pianogrande"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botonDO"
+        android:layout_width="0dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="DO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonRE"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botonRE"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="16dp"
+        android:text="RE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonMI"
+        app:layout_constraintStart_toEndOf="@+id/botonDO"
+        app:layout_constraintTop_toTopOf="@+id/botonDO" />
+
+    <Button
+        android:id="@+id/botonMI"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="MI"
+        app:layout_constraintBottom_toBottomOf="@+id/botonRE"
+        app:layout_constraintEnd_toStartOf="@+id/botonFA"
+        app:layout_constraintStart_toEndOf="@+id/botonRE"
+        app:layout_constraintTop_toTopOf="@+id/botonFA" />
+
+    <Button
+        android:id="@+id/botonFA"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="16dp"
+        android:text="FA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonSOL"
+        app:layout_constraintStart_toEndOf="@+id/botonMI"
+        app:layout_constraintTop_toTopOf="@+id/botonDO" />
+
+    <Button
+        android:id="@+id/botonSOL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:text="SOL"
+        app:layout_constraintBottom_toBottomOf="@+id/botonFA"
+        app:layout_constraintEnd_toStartOf="@+id/botonLA"
+        app:layout_constraintStart_toEndOf="@+id/botonFA"
+        app:layout_constraintTop_toTopOf="@+id/botonLA" />
+
+    <Button
+        android:id="@+id/botonLA"
+        android:layout_width="0dp"
+        android:layout_height="152dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="16dp"
+        android:text="LA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonSI"
+        app:layout_constraintStart_toEndOf="@+id/botonSOL" />
+
+    <Button
+        android:id="@+id/botonSI"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="SI"
+        app:layout_constraintBottom_toBottomOf="@+id/botonDO2"
+        app:layout_constraintEnd_toStartOf="@+id/botonDO2"
+        app:layout_constraintStart_toEndOf="@+id/botonLA"
+        app:layout_constraintTop_toTopOf="@+id/botonLA" />
+
+    <Button
+        android:id="@+id/botonDO2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="DO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/botonSI"
+        app:layout_constraintTop_toTopOf="@+id/botonRE" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
